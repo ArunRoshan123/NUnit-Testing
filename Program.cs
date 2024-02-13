@@ -14,7 +14,6 @@ namespace UnitTesting
 
             Console.WriteLine("Enter percentage ");
             var percentage = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine($"Student grade : {g1.GetGradeByPercentage(percentage)}");
 
         }
