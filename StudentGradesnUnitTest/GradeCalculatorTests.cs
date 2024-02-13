@@ -35,7 +35,6 @@ namespace StudentGradesnUnitTest
         public void GetGradeByPercentage_NotEqualTest(int percentage)
         {
             //var percentage = 99;
-
             var grade = _gradeCalculator.GetGradeByPercentage(percentage);
 
             Assert.AreNotEqual("O", grade);

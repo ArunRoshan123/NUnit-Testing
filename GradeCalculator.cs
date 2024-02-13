@@ -10,6 +10,7 @@ namespace UnitTesting
     {
         public string GetGradeByPercentage(int percent)
         {
+
             if (percent >= 90 && percent <= 100)
                 return "O";
             else if (percent >= 80 && percent <= 89)
